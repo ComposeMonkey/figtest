@@ -9,3 +9,4 @@ web:
    - redis
 redis:
   image: dockerbase/redis
+  command: /sbin/runit
